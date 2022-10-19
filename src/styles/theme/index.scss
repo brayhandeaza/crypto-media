@@ -1,0 +1,29 @@
+@import "reset.scss";
+
+
+
+.hover:hover {
+    cursor: pointer;
+}
+
+.hover:active {
+    opacity: 0.5;
+}
+
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+
+.theme {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+

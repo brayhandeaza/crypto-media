@@ -1,0 +1,17 @@
+version: '3'
+services:
+  front-end:
+    container_name: front-end
+    image: app:front-end
+    build: 
+      context: .
+    environment:
+      REACT_APP_API_MAIN_SERVER_URL: http://localhost:8000
+      REACT_APP_API_COINS_SERVER_URL: http://localhost:8001
+      REACT_APP_API_NOTIFICATION_SERVER_URL: http://localhost:8002
+    volumes:
+      - .:/app
+    ports:
+      - 3000:3000
+    command: yarn start
+

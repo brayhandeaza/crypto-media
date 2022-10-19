@@ -1,0 +1,196 @@
+@import "colors";
+
+body {
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.light {
+    .text {
+        color: $dark-900;
+        fill: $dark-900;
+    }
+
+    .body {
+        span {
+            color: $dark-900  !important;
+        }
+    }
+
+    .background {
+        background-color: $white;
+
+        .theme {
+            box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.16);
+            background: $white;
+        }
+
+        .fill {
+            fill: $dark-300;
+        }
+
+
+        .ant-popover-arrow {
+            color: $white  !important;
+        }
+    }
+
+
+    .Search {
+        .form-control {
+            height: 100%;
+            padding: 10px 10px;
+            background: $gray-100  !important;
+            border: none;
+            color: $dark-900;
+        }
+    }
+
+    .Post {
+        .form-control {
+            height: 100%;
+            padding: 10px 10px;
+            background: $gray-100  !important;
+            border: none;
+            color: $dark-900;
+        }
+    }
+
+    .Feed {
+        .comment-post-container {
+            background: $gray-100  !important;
+
+            .text {
+                color: rgba(000, 000, 000, 0.3);
+            }
+
+            .textAreaColor {
+                color: $dark-900;
+            }
+        }
+    }
+
+    .p-bg {
+        // background: #000 !important;
+        // border: 1px solid rgb(78, 77, 77);
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+    }
+
+
+}
+
+.dark {
+    .text {
+        color: $white;
+    }
+
+    .body {
+
+        span {
+            color: $white  !important;
+        }
+    }
+
+    .background {
+        background-color: $dark-700;
+
+        .theme {
+            box-shadow: 0px 0px 3px 0px $dark-100;
+        }
+
+        .fill {
+            fill: $white;
+        }
+
+
+        .ant-popover-arrow {
+            display: none;
+        }
+
+    }
+
+    .Search {
+        .form-control {
+            height: 100%;
+            padding: 10px 10px;
+            background: $dark-500  !important;
+            border: none;
+            color: $white;
+        }
+    }
+
+    .Post {
+        .form-control {
+            height: 100%;
+            padding: 10px 10px;
+            background: $dark-500  !important;
+            border: none;
+            color: $white;
+        }
+    }
+
+    .Feed {
+        .comment-post-container {
+            background-color: $dark-500;
+
+            .text {
+                color: $white;
+            }
+        }
+
+        .textAreaColor {
+            color: $white;
+        }
+
+    }
+
+    .dropdown-menu.show {
+        background-color: $dark-700;
+
+        .text {
+            color: $white;
+        }
+    }
+
+    aside.emoji-picker-react {
+        background-color: $dark-500;
+    }
+
+    .emoji-picker-react .emoji-group:before,
+    .emoji-picker-react input.emoji-search {
+        background-color: $dark-500;
+        color: white;
+    }
+
+    .emoji-categories {
+        background: rgb(208, 208, 208);
+        filter: invert(1)
+    }
+
+    .p-bg {
+
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 1);
+        border-radius: 10px;
+    }
+
+    .popover-arrow::after {
+        top: 1px;
+        border-width: 0 0.5rem 0.5rem 0.5rem;
+        border-bottom-color: rgb(145, 143, 143) !important;
+    }
+
+}
+
+.dark.bs-popover-bottom {
+    background: $dark-700  !important;
+    border: none !important;
+    border-radius: 10px !important;
+}
+
+.bs-popover-bottom {
+    border: none !important;
+    border-radius: 10px !important;
+}

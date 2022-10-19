@@ -1,0 +1,19 @@
+@import "gobal";
+
+.OurToken {
+    height: 110px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 0px 1.5px 0px rgba(0, 0, 0, 0.16);
+    @include flexBox(center, space-between, row);
+
+    .token-img {
+        height: 100%;
+        @include flexBox(center, center, column);
+
+        img {
+            width: 45px;
+            height: 45px;
+        }
+    }
+}

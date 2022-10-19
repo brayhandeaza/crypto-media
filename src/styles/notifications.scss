@@ -1,0 +1,25 @@
+.Notifications {
+
+    .btn {
+        position: relative;
+
+        .count {
+            width: 20px;
+            height: 20px;
+            color: white;
+            background: red;
+            border-radius: 100%;
+            font-size: 10px;
+
+            position: absolute;
+            top: -7px;
+            right: -5px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+
+}
