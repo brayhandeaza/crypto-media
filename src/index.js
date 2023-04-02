@@ -18,6 +18,7 @@ import './styles/feds.scss';
 import './styles/notifications.scss';
 import './styles/index.scss';
 import './styles/top-coins.scss';
+import './styles/Videos.scss';
 import 'react-calendar/dist/Calendar.css'
 
 // Redux
@@ -26,8 +27,8 @@ import store from './redux/store'
 import SocketProvider from './contexts/SocketContext';
 
 // Global axios
-axios.defaults.baseURL = process.env.REACT_APP_API_MAIN_SERVER_URL
-console.log(process.env.REACT_APP_API_MAIN_SERVER_URL);
+axios.defaults.baseURL = "http://localhost:8000"
+// console.log(process.env.REACT_APP_API_MAIN_SERVER_URL);
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

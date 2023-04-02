@@ -4,8 +4,8 @@ import { useDispatch, useSelector } from 'react-redux'
 import { Outlet } from 'react-router-dom'
 import Header from '../components/header'
 import { fetchCurrentUser } from '../redux/apiFetchs'
-import SignUpScreen from "../screens/SignUpScreen"
-import UserInfoScreen from '../screens/UserInfoScreen'
+import SignUpScreen from "../views/SignUpView"
+import UserInfoScreen from '../views/UserInfoView'
 import { ThemeContex } from './ThemeContext'
 
 

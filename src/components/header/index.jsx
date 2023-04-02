@@ -13,7 +13,7 @@ const Header = () => {
 
     return (
         <div className={`${theme}`} style={{ width: "100%" }}>
-            <div className={` background `}>
+            <div className={`background`}>
                 <div className={`container`}>
                     <nav className="navbar navbar-expand-lg d-flex" style={{ alignItems: "center", height: 60 }}>
                         <div className="container-fluid">
